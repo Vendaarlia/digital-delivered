@@ -1,0 +1,37 @@
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+  }
+  
+.marquee h3 {
+    position: absolute;
+    animation: marquee 10s linear infinite;
+     /* Adjust the duration as needed */
+    -webkit-animation: marquee 20s linear infinite;
+}
+  
+  @keyframes marquee {
+    0% {
+      left: 100%; /* Start from the right edge */
+    }
+    100% {
+      left: -100%; /* Move to the left edge */
+    }
+  }
+
+.marquee h4 {
+    position: absolute;
+    animation: marquee2 10s linear infinite;
+    /*Adjustthedurationasneeded*/
+    -webkit-animation: marquee2 20s linear infinite;
+}
+  
+  @keyframes marquee2 {
+    0% {
+      right: 100%; /* Start from the right edge */
+    }
+    100% {
+      right: -100%; /* Move to the left edge */
+    }
+  }

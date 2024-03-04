@@ -17,6 +17,7 @@
 }
 
 body {
+  margin: 0 auto;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,10 +25,73 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-size: 12px;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+/* font style Hero1.tsx */
+.txt-line {
+  text-align: center;
+  line-height: 1;
+  font-size: 6rem;
+  font-weight: 700;
+  color: #000;
+  text-shadow: -1px -1px 1px #ffffff, 1px 1px 1px #ffffff;
+}
+
+.txt-fill {
+  padding-top: 0.9rem;
+  padding-left: 0.9rem;
+  text-align: center;
+  line-height: 1;
+  font-size: 6rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
+/* interaction for card Team.tsx */
+.wrap-img:hover .img-left {
+  transform: rotateZ(-25deg);
+  -webkit-transform: rotateZ(-25deg);
+  -moz-transform: rotateZ(-25deg);
+  -ms-transform: rotateZ(-25deg);
+  -o-transform: rotateZ(-25deg);
+}
+
+.wrap-img:hover .img-right {
+  transform: rotateZ(25deg);
+  -webkit-transform: rotateZ(25deg);
+  -moz-transform: rotateZ(25deg);
+  -ms-transform: rotateZ(25deg);
+  -o-transform: rotateZ(25deg);
+}
+
+.img-right {
+  filter: hue-rotate(0deg);
+  filter: saturate(100%);
+  -webkit-filter: saturate(100%);
+}
+
+.wrap-img .img-right:hover{
+  filter: hue-rotate(148deg);
+  filter: saturate(300%);
+  -webkit-filter: saturate(300%);
+}
+
+/* interaction pro-list for project.tsx */
+.tumb {
+  opacity: 0;
+}
+
+.pro:hover {
+  background-color: #000;
+}
+
+.pro:hover .tumb {
+  opacity: 1;
 }
