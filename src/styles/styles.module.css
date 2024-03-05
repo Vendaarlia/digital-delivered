@@ -12,12 +12,20 @@
 }
   
   @keyframes marquee {
-    0% {
-      left: 100%; /* Start from the right edge */
-    }
-    100% {
-      left: -100%; /* Move to the left edge */
-    }
+    from {
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+}
+    to {
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+}
   }
 
 .marquee h4 {
@@ -28,10 +36,18 @@
 }
   
   @keyframes marquee2 {
-    0% {
-      right: 100%; /* Start from the right edge */
-    }
-    100% {
-      right: -100%; /* Move to the left edge */
-    }
+    from {
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+}
+    to {
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+}
   }

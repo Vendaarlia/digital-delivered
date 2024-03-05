@@ -17,7 +17,7 @@ export default function Project() {
                         </div>
                     </div>
                 </div>
-                <div className="pro-list pt-20 pb-20">
+                <div className="pro-list pt-20 pb-20 sm:flex sm:flex-col gap-8">
                     <div className="pro pr-20 pl-20 flex justify-center ">
                         <div className="content w-3/4 flex justify-between items-center gap-10">
                             <div className="txt z-10">
@@ -25,7 +25,7 @@ export default function Project() {
                                 <p>Invest Group is an investment platform connecting investors with lucrative investment opportunities.</p>
                             </div>
                             <div className="tumb">
-                                <Image src="/images/hero1.png" className="bg-white rotate-45 z-0" alt="" width={300} height={300} />
+                                <Image src="/images/projects/property.jpg" className="bg-white rotate-45 z-0" alt="" width={300} height={300} />
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ export default function Project() {
                                 <p>NFTs / Non-Fungible Tokens are unique digital assets stored on blockchain, representing ownership of art, music, collectibles, and more.</p>
                             </div>
                             <div className="tumb">
-                                <Image src="/images/hero1.png" className="bg-white rotate-45 z-0" alt="" width={300} height={300} />
+                                <Image src="/images/projects/nft.jpg" className="bg-white rotate-45 z-0" alt="" width={300} height={300} />
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ export default function Project() {
                                 <p>Local trade refers to the exchange of goods or services within a specific geographic area or community, typically conducted face-to-face.</p>
                             </div>
                             <div className="tumb">
-                                <Image src="/images/hero1.png" className="bg-white rotate-45 z-0" alt="" width={300} height={300} />
+                                <Image src="/images/projects/localtrade.jpg" className="bg-white rotate-45 z-0" alt="" width={300} height={300} />
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ export default function Project() {
                                 <p>Cryptoflow is a decentralized financial utilizing blockchain technology to facilitate secure and transparent, revolutionizing global finance.</p>
                             </div>
                             <div className="tumb">
-                                <Image src="/images/hero1.png" className="bg-white rotate-45 z-0" alt="" width={300} height={300} />
+                                <Image src="/images/projects/crypto.jpg" className="bg-white rotate-45 z-0" alt="" width={300} height={300} />
                             </div>
                         </div>
                     </div>
