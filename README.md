@@ -5,7 +5,7 @@ This project demonstrates my skill in cloning a landing page from a JPG to a ful
 ## Background Story
 Digital Delivered is a renowned studio known for its excellence in frontend and backend development, along with expertise in crafting effective marketing strategies. Our team comprises highly skilled professionals who have been recognized for their contributions to the developer community.
 
-### Accolades and Rankings
+#### Accolades and Rankings
 Ranked #1 Python Developer in the CSI Developer Awards
 
 Ranked #2 JavaScript Developer in the CSI Developer Awards
