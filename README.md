@@ -1,8 +1,8 @@
-# Digital Delivered
+# Digital Delivered Clone Project
 ___
-Digital Delivered is a full-service studio specializing in frontend and backend development, as well as marketing strategy. With extensive experience and accolades in the industry, we have been recognized and awarded top rankings in developer communities.
+This project demonstrates my skill in cloning a landing page from a JPG to a fully functional web application using Next.js framework, TypeScript, Tailwind CSS, Module CSS, Font Awesome, Framer Motion, and React DOM.
 
-## Background
+## Background Story
 Digital Delivered is a renowned studio known for its excellence in frontend and backend development, along with expertise in crafting effective marketing strategies. Our team comprises highly skilled professionals who have been recognized for their contributions to the developer community.
 
 ### Accolades and Rankings
