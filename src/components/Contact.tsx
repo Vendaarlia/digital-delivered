@@ -10,7 +10,7 @@ export default function Contact() {
                     <p>Garlicoin is like the deadbolt for door locks, it secure and protects you from crypto-vampires. Blockchain tech makes it nearly impossible to our advances <a className="text-[#e14c6c]" href="http://">Contact us! &rarr;</a></p>
                     <p>©reate 2024 by vendaarlia</p>
                 </div>
-                <div className="colmn text-right h-full flex flex-col justify-between w-3/4">
+                <div className="colmn h-full flex flex-col justify-between w-3/4">
                     <h1 className="w-full text-6xl text-right text-[#e14c6c]">*</h1>
                     <h5 className="text-xl  font-bold">
                         Surabaya<br />
@@ -19,31 +19,31 @@ export default function Contact() {
                         0838327382873<br />
                         vendaarlia9@gmail.com <br />
                         <a className="text-[#e14c6c]" href="http://">GitHub &rarr;</a></h5>
-                    <div className="contact mt-8">
+                    <div className="contact w-full mt-8">
                         <form id="survey-form" action="">
-                            <div className="input-wrap flex justify-end gap-2 mb-5">
-                                <p className=" text-lg">Im looking for a </p>
-                                <select name="dropdown" id="dropdown" className="select-style bg-transparent cursor-pointer " typeof="dropdown">
-                                    <option disabled selected value="start">________________________</option>
+                            <div className="input-wrap flex justify-end gap-2 mb-10">
+                                <p className=" text-lg md:w-[20%]">Im looking for a </p>
+                                <select name="dropdown" id="dropdown" className="select-style bg-transparent cursor-pointer md:w-full w-1/2 border-white border-b-[1px] " typeof="dropdown">
+                                    <option disabled selected value="start"></option>
                                     <option value="designer">Designer</option>
                                     <option value="developer">Developer</option>
                                     <option value="marketing">Marketing</option>
                                 </select>
                             </div>
-                            <div className="input-wrap flex justify-end gap-2 mb-5">
-                                <p className="text-lg">I want </p>
-                                <select name="dropdown" id="dropdown" className="select-style bg-transparent cursor-pointer" typeof="dropdown">
-                                    <option disabled selected value="start">________________________</option>
+                            <div className="input-wrap flex justify-end gap-2 mb-10">
+                                <p className="text-lg md:w-[20%]">I want </p>
+                                <select name="dropdown" id="dropdown" className="select-style bg-transparent cursor-pointer md:w-full w-1/2 border-white border-b-[1px] " typeof="dropdown">
+                                    <option disabled selected value="start"></option>
                                     <option value="branding">Branding</option>
                                     <option value="application">Application</option>
                                     <option value="ads">Ads Champaign</option>
                                 </select>
-                                <p className="text-lg">project</p>
+                                <p className="text-lg ml-4 w-[20%]">project</p>
                             </div>
                             <div className="input-wrap flex justify-end gap-2">
-                                <p className="text-lg">My budget is </p>
-                                <select name="dropdown" id="dropdown" className="select-style bg-transparent cursor-pointer" typeof="dropdown">
-                                    <option disabled selected value="start">________________________</option>
+                                <p className="text-lg md:w-[25%]">My budget is </p>
+                                <select name="dropdown" id="dropdown" className="select-style bg-transparent cursor-pointer md:w-full w-1/2 border-white border-b-[1px] " typeof="dropdown">
+                                    <option disabled selected value="start"></option>
                                     <option value="100-500">100-1500</option>
                                     <option value="600-1000">600-1000</option>
                                     <option value="discuse">Discuse whit us</option>

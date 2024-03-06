@@ -18,7 +18,7 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="pro-list pt-20 pb-20 sm:flex sm:flex-col gap-8">
-                    <div className="pro pr-20 pl-20 flex justify-center ">
+                    <div className="pro pl-5 flex justify-center ">
                         <div className="content w-3/4 flex justify-between items-center gap-10">
                             <div className="txt z-10">
                                 <h1 className="text-xl font-bold">INVEST GRUP</h1>
@@ -29,7 +29,7 @@ export default function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="pro pr-20 pl-20 flex justify-center ">
+                    <div className="pro pl-5 flex justify-center ">
                         <div className="content w-3/4 flex justify-between items-center gap-10">
                             <div className="txt z-10">
                                 <h1 className="text-xl font-bold">NFT</h1>
@@ -40,7 +40,7 @@ export default function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="pro pr-20 pl-20 flex justify-center ">
+                    <div className="pro pl-5 flex justify-center ">
                         <div className="content w-3/4 flex justify-between items-center gap-10">
                             <div className="txt z-10">
                                 <h1 className="text-xl font-bold">LOCAL TRADE</h1>
@@ -51,7 +51,7 @@ export default function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="pro pr-20 pl-20 flex justify-center ">
+                    <div className="pro pl-5 flex justify-center ">
                         <div className="content w-3/4 flex justify-between items-center gap-10">
                             <div className="txt z-10">
                                 <h1 className="text-xl font-bold">CRYPTOFLOW</h1>
