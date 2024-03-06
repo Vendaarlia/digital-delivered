@@ -1,6 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Digital Delivered Clone Project
+___
+This project demonstrates my skill in cloning a landing page from a JPG to a fully functional web application using Next.js framework, TypeScript, Tailwind CSS, Module CSS, Font Awesome, Framer Motion, and React DOM.
+
+## Background Story
+Digital Delivered is a renowned studio known for its excellence in frontend and backend development, along with expertise in crafting effective marketing strategies. Our team comprises highly skilled professionals who have been recognized for their contributions to the developer community.
+
+#### Accolades and Rankings
+Ranked #1 Python Developer in the CSI Developer Awards
+
+Ranked #2 JavaScript Developer in the CSI Developer Awards
+
+Ranked #3 React Developer in the CSI Developer Awards
+
+## Features
+Responsive navbar
+
+Marquee text
+
+Contact form
+
+## Technologies Used
+Next.js
+
+TypeScript
+
+Tailwind CSS
+
+Module CSS
+
+Font Awesome
+
+Framer Motion
+
+React DOM
+
+## Demo
+[Digital Delivered](https://digital-delivered.vercel.app/)
+
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
