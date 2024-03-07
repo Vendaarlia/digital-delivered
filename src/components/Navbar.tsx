@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import Image from "next/image"
 
 export default function Navbar() {
@@ -38,3 +39,52 @@ export default function Navbar() {
         </>
     )
 }
+=======
+import { useEffect, useState } from 'react';
+
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    // Code to be executed on the client side
+    // You can use useState and other client-side functionalities here
+    const handleButtonClick = () => {
+      setMenuOpen((prevState) => !prevState); // Toggle menuOpen state
+    };
+
+    document.getElementById('toggle-button').addEventListener('click', handleButtonClick);
+
+    return () => {
+      document.getElementById('toggle-button').removeEventListener('click', handleButtonClick);
+    };
+  }, []); // Empty dependency array ensures this effect runs only once on component mount
+
+  return (
+    <nav className="w-3/4 h-20 sticky top-0 flex justify-between items-center">
+      <div className="brand">
+        <a href="/">
+          <Image src="/images/logo.jpg" alt="" width={40} height={40} className="rounded-full" />
+        </a>
+      </div>
+      <ul className={menuOpen ? 'block' : 'hidden'} id="navul">
+        <li className="navli">
+          <a href="/">Service</a>
+        </li>
+        <li className="navli">
+          <a href="/">Digital</a>
+        </li>
+        <li className="navli">
+          <a href="/">Delivered</a>
+        </li>
+      </ul>
+      <div>
+        <button id="toggle-button" className="relative group">
+          {/* Button content */}
+        </button>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
+>>>>>>> Stashed changes
