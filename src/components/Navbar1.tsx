@@ -1,5 +1,4 @@
 import Image from "next/image"
-import styles from "@/styles/styles.module.css"
 
 export default function Navbar1() {
     return (
