@@ -21,7 +21,7 @@ export default function Social() {
                 <div className="txt flex justify-center mt-20">
                     <h3 className=" w-3/4 text-3xl font-semibold">We use cutting-edge <span className="text-[#e14c6c]"><a href="http://">technology</a></span> that work. combined with our apps & <span className="text-[#e14c6c]"><a href="http://">devivery focus</a></span>, we always set it done. </h3>
                 </div>
-                <div className="link-red w-3/4 flex justify-between mt-9 mb-9 m-auto  text-[#e14c6c]">
+                <div className="link-red w-3/4 flex justify-between mt-9 mb-9 m-auto hover:line-through text-[#e14c6c]">
                     <a href="http://">Why to chosse? &rarr;</a>
                     <a href="http://">Need some advice? &rarr;</a>
                 </div>
