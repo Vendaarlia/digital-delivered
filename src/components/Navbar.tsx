@@ -1,4 +1,63 @@
-import Image from "next/image"
+import Link from "next/link";
+import Image from "next/image";
+import React, { useState } from "react";
+import Logo from "./Logo";
+import NavItem from "./NavItem";
+
+const MENU_LIST = [
+  { text: "Home", href: "/" },
+  { text: "About Us", href: "/about" },
+  { text: "Contact", href: "/contact" },
+];
+const Navbar = () => {
+  const [navActive, setNavActive] = useState(null);
+  const [activeIdx, setActiveIdx] = useState(-1);
+
+  return (
+    <header>
+      <nav className={`nav`}>
+        <Link href={"/"}>
+          <a>
+            <h1 className="logo">CodeWithMarish</h1>
+          </a>
+        </Link>
+        <div
+          onClick={() => setNavActive(!navActive)}
+          className={`nav__menu-bar`}
+        >
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div className={`${navActive ? "active" : ""} nav__menu-list`}>
+          {MENU_LIST.map((menu, idx) => (
+            <div
+              onClick={() => {
+                setActiveIdx(idx);
+                setNavActive(false);
+              }}
+              key={menu.text}
+            >
+              <NavItem active={activeIdx === idx} {...menu} />
+            </div>
+          ))}
+        </div>
+      </nav>
+    </header>
+  );
+};
+
+export default Navbar;
+
+
+
+
+
+
+
+
+{/**OLD NAV BAR THAT WORK BUT NOT FUNCTION */}
+{/*import Image from "next/image"
 
 export default function Navbar() {
     return (
@@ -10,7 +69,6 @@ export default function Navbar() {
                     <Image src="/images/logo.jpg" alt="" width={40} height={40} className="rounded-full" />
                 </a>
             </div>
-            {/** perlu ngulik toggle hidden/visible button */}
             <ul className="hidden" id="navul">
                 <li className="navli">
                     <a href="http://">Service</a>
@@ -37,4 +95,4 @@ export default function Navbar() {
         </section>
         </>
     )
-}
+}*/}
