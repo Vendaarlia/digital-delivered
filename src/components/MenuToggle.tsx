@@ -15,7 +15,7 @@ const Path = (props: SVGMotionProps<SVGPathElement>) => (
 );
 
 export const MenuToggle = ({ toggle }: { toggle: () => void }) => (
-  <button className="btn-toggle w-[40px] h-[40px] flex items-center justify-center bg-[#e14c6c] cursor-pointer absolute top-[18px] right-[200px] z-[999] rounded-[50%] " onClick={toggle}>
+  <button className="btn-toggle w-[40px] h-[40px] flex items-center justify-center bg-[#e14c6c] cursor-pointer absolute top-[18px] right-[100px] md:right-[150px] z-[999] rounded-[50%] " onClick={toggle}>
     <svg width="20" height="20" viewBox="0 0 20 20">
       <Path
         variants={{

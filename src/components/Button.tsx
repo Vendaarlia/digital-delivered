@@ -1,1 +1,0 @@
-{/**this button contak coba bisa kah aku membuat button fubction normal dan standart html submit untuk contact.tsx plan ada 2 button 2 function dan gimana cara memangil button ini secara sepesifik adri 2 funtion ini */}
