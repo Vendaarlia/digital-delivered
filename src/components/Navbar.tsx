@@ -37,14 +37,14 @@ export const Navbar = () => {
   const { height } = useDimensions(containerRef);
 
   return (
-    <section className="wrap-nav">
-    <motion.nav
+    <section className="wrap-nav top-0 w-screen h-[80px] z-[999]">
+    <motion.nav className="nav w-full h-full flex items-center"
       initial={false}
       animate={isOpen ? "open" : "closed"}
       custom={height}
       ref={containerRef}
     >
-      <motion.div className="background" variants={sidebar} />
+      <motion.div className="background absolute top-0 right-[15px] bottom-0 w-screen bg-white z-[970]" variants={sidebar} />
       <Brand />
       <Navigation />
       <MenuToggle toggle={() => toggleOpen()} />
