@@ -34,25 +34,10 @@ body {
   }
 }
 /* font style Hero1.tsx */
+
 .txt-line {
-  text-align: center;
-  line-height: 1;
-  font-size: 6rem;
-  font-weight: 700;
-  color: #000;
   text-shadow: -1px -1px 1px #ffffff, 1px 1px 1px #ffffff;
 }
-
-.txt-fill {
-  padding-top: 0.9rem;
-  padding-left: 0.9rem;
-  text-align: center;
-  line-height: 1;
-  font-size: 6rem;
-  font-weight: 700;
-  color: #ffffff;
-}
-
 
 /* interaction for card Team.tsx */
 .wrap-img:hover .img-left {
