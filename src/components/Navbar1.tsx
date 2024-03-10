@@ -5,8 +5,13 @@ export default function Navbar1() {
     return (
         <>
         <section className=" flex justify-center">
+<<<<<<< Updated upstream
         <nav className=" w-3/4 h-20 sticky top-0 flex justify-between items-center">
             <div className="brand ">
+=======
+        <div className=" w-3/4 h-20 sticky top-0 flex justify-between items-center">
+            <div className="brand w-2/3">
+>>>>>>> Stashed changes
                 <a href="http://">
                     <Image src="/images/logo.jpg" alt="" width={40} height={40} className="rounded-full" />
                 </a>
@@ -33,7 +38,7 @@ export default function Navbar1() {
                     </div>
                 </button>
             </div>
-        </nav>
+        </div>
         </section>
         </>
     )
