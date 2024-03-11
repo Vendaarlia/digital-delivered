@@ -1,22 +1,18 @@
-import styles from "@/styles/styles.module.css";
-import { motion } from "framer-motion";
+'use client'
+import { motion } from 'framer-motion';
 
 const chilImgL = {
-    initial: { rotateZ: 0 },
+    initial: {rotate: 0},
     animate: { rotateZ: -25}
 }
-
 const chilImgR = {
-    initial: { rotateZ: 0 },
-    animate: { rotateZ: 25 }
+    initial: {rotate: 0},
+    animate: { rotateZ: 25}
 }
 
-
-export default function Team() {
-    return (
-        <>
-        <section className="w-screen">
-        <motion.div className="wrap-img  mt-40 flex justify-center gap-4"
+const Play = () => {
+  return (
+    <motion.div className="wrap-img  mt-40 flex justify-center gap-4"
             initial="initial"
             animate="initial"
             whileHover="animate"
@@ -44,12 +40,7 @@ export default function Team() {
                         </div>
                     </motion.div>
             </motion.div>
-            <div className="wrap-marquee w-screen border-t-2 border-b-2 border-white bg-black z-10">
-                <div className={`${styles.marquee} w-full h-24 flex items-center pt-6`}>
-                    <h3 className=" font-bold text-5xl">OUR TEAM <span className="text-7xl align-top text-[#e14c6c]">*</span> <span className="font-extralight">OUR TEAM</span> <span className="text-7xl align-top text-[#e14c6c]">*</span> OUR TEAM <span className="text-7xl align-top text-[#e14c6c]">*</span> <span className="font-extralight">OUR TEAM</span> <span className="text-7xl align-top text-[#e14c6c]">*</span> OUR TEAM <span className="text-7xl align-top text-[#e14c6c]">*</span> <span className="font-extralight">OUR TEAM</span> <span className="text-7xl align-top text-[#e14c6c]">*</span> OUR TEAM </h3>
-                </div>
-            </div>
-        </section>
-        </>
-    )
-}
+  );
+};
+
+export default Play;

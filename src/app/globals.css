@@ -39,34 +39,6 @@ body {
   text-shadow: -1px -1px 1px #ffffff, 1px 1px 1px #ffffff;
 }
 
-/* interaction for card Team.tsx */
-.wrap-img:hover .img-left {
-  transform: rotateZ(-25deg);
-  -webkit-transform: rotateZ(-25deg);
-  -moz-transform: rotateZ(-25deg);
-  -ms-transform: rotateZ(-25deg);
-  -o-transform: rotateZ(-25deg);
-}
-
-.wrap-img:hover .img-right {
-  transform: rotateZ(25deg);
-  -webkit-transform: rotateZ(25deg);
-  -moz-transform: rotateZ(25deg);
-  -ms-transform: rotateZ(25deg);
-  -o-transform: rotateZ(25deg);
-}
-
-.img-right {
-  filter: hue-rotate(0deg);
-  filter: saturate(100%);
-  -webkit-filter: saturate(100%);
-}
-
-.wrap-img .img-right:hover{
-  filter: hue-rotate(148deg);
-  filter: saturate(300%);
-  -webkit-filter: saturate(300%);
-}
 
 /* interaction pro-list for project.tsx */
 .tumb {
@@ -79,4 +51,24 @@ body {
 
 .pro:hover .tumb {
   opacity: 1;
+}
+
+/* play.tsx */
+
+.parent {
+  width: 100vw;
+  height: 100vh;
+  background-color: bisque;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.hover-trigger {
+  width: 50vw;
+  height: 50vh;
+  background-color: aquamarine;
 }

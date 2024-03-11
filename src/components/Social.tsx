@@ -11,7 +11,7 @@ export default function Social() {
                         <a href="http://">Instagram</a>
                     </div>
                     <div className="emblem">
-                        <Image className="rounded-full" src="/images/logo.jpg" alt="" width={200} height={200} />
+                        <Image className="rounded-full" src="/images/brand.png" alt="" width={200} height={200} />
                     </div>
                     <div className="right flex justify-center items-center w-1/2 gap-9">
                         <a href="http://">Medium</a>

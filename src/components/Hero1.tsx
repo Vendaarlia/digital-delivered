@@ -2,12 +2,16 @@
 'use client'
 import Image from "next/image"
 import { motion } from "framer-motion"
+import { SparklesCore } from "./ui/sparkles"
 
 
 export default function Hero1() {
     return (
         <>
         <section className="hero1 h-screen pb-44 relative">
+            <div className="w-full absolute inset-0 h-screen">
+                <SparklesCore id="tsparticlesfullpage" background="transparent" minSize={0.6} maxSize={1.4} particleDensity={50} className="w-full h-full" particleColor="#fff" />
+            </div>
             <div className="wrap w-screen h-full m-0 top-0 flex justify-center items-center">
                 <div className="absolute top-60 md:top-72"><h1 className="txt-line text-[7rem] md:text-9xl text-black font-bold text-center leading-none">DIGITAL. <br />DELIVERED.</h1></div>
                 <Image className="absolute grayscale justify-center align-middle" src="/images/hero2.png" alt="" width={900} height={500} />
