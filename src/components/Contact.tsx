@@ -13,12 +13,17 @@ export default function Contact() {
                 <div className="colmn h-full flex flex-col justify-between w-3/4">
                     <h1 className="w-full text-6xl text-right text-[#e14c6c]">*</h1>
                     <h5 className="text-xl  font-bold">
-                        Surabaya<br />
-                        jl.diponeggoro<br />
+                        Tamriel<br />
+                        Skyrim, whiterun.<br />
                         <br />
                         0838327382873<br />
+<<<<<<< Updated upstream
                         vendaarlia9@gmail.com <br />
                         <a className="text-[#e14c6c] hover:line-through" href="http://">GitHub &rarr;</a></h5>
+=======
+                        digital@delivered.com <br />
+                        <a className="text-[#e14c6c]" href="http://">GitHub &rarr;</a></h5>
+>>>>>>> Stashed changes
                     <div className="contact w-full mt-8">
                         <form id="survey-form" action="">
                             <div className="input-wrap flex justify-end gap-2 mb-10">
