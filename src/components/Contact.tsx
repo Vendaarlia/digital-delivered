@@ -13,13 +13,9 @@ export default function Contact() {
                 <div className="colmn h-full flex flex-col justify-between w-3/4">
                     <h1 className="w-full text-6xl text-right text-[#e14c6c]">*</h1>
                     <h5 className="text-xl  font-bold">
-<<<<<<< Updated upstream
-                        Surabaya<br />
-                        jl.diponeggoro<br />
-=======
+
                         Whiterun<br />
                         Skyrim, Tamriel.<br />
->>>>>>> Stashed changes
                         <br />
                         0838327382873<br />
                         vendaarlia9@gmail.com <br />
