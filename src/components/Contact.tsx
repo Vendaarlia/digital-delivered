@@ -7,7 +7,7 @@ export default function Contact() {
             <div className="wrap h-full w-4/5 flex justify-center items-center gap-9 md:gap-20 p-9 pt-20">
                 <div className="colmn h-full md:w-1/2 w-1/3 flex flex-col justify-between">
                     <h1 className="text-3xl font-bold">Contact Us</h1>
-                    <p>Garlicoin is like the deadbolt for door locks, it secure and protects you from crypto-vampires. Blockchain tech makes it nearly impossible to our advances <a className="text-[#e14c6c]" href="http://">Contact us! &rarr;</a></p>
+                    <p>Garlicoin is like the deadbolt for door locks, it secure and protects you from crypto-vampires. Blockchain tech makes it nearly impossible to our advances <a className="text-[#e14c6c] hover:line-through" href="http://">Contact us! &rarr;</a></p>
                     <p>©reate 2024 by vendaarlia</p>
                 </div>
                 <div className="colmn h-full flex flex-col justify-between w-3/4">
@@ -18,8 +18,8 @@ export default function Contact() {
                         Skyrim, Tamriel.<br />
                         <br />
                         0838327382873<br />
-                        vendaarlia9@gmail.com <br />
-                        <a className="text-[#e14c6c]" href="http://">GitHub &rarr;</a></h5>
+                        digital@delivered.com <br />
+                        <a className="text-[#e14c6c] hover:line-through" href="http://">GitHub &rarr;</a></h5>
                     <div className="contact w-full mt-8">
                         <form id="survey-form" action="">
                             <div className="input-wrap flex justify-end gap-2 mb-10">

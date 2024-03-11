@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 const chilImgL = {
     initial: { rotateZ: 0 },
-    animate: { rotateZ: -25}
+    animate: { rotateZ: -25, transition: { type: "spring" }}
 }
 
 const chilImgR = {
     initial: { rotateZ: 0 },
-    animate: { rotateZ: 25 }
+    animate: { rotateZ: 25, transition: { type: "spring" }}
 }
 
 
@@ -16,7 +16,7 @@ export default function Team() {
     return (
         <>
         <section className="w-screen">
-        <motion.div className="wrap-img  mt-40 flex justify-center gap-4"
+        <motion.div className="wrap-img pt-20 mt-24 flex justify-center gap-4"
             initial="initial"
             animate="initial"
             whileHover="animate"
@@ -29,7 +29,7 @@ export default function Team() {
                             <p>the Heretical</p>
                         </div>
                     </motion.div>
-                    <div className="img-center -z-10">
+                    <div className="img-center z-10">
                         <div className="img bg-[url('/images/vendaarlia.png')] bg-cover w-[200px] h-[300px] p-5">
                             <h3 className="text-3xl font-semibold">Vendaarlia</h3>
                             <p>the Developer</p>
