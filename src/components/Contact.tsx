@@ -14,7 +14,7 @@ export default function Contact() {
                     <h1 className="w-full text-6xl text-right text-[#e14c6c]">*</h1>
                     <h5 className="text-xl  font-bold">
 
-                        Whiterun<br />
+                        Whiterun,<br />
                         Skyrim, Tamriel.<br />
                         <br />
                         0838327382873<br />
