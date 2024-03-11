@@ -80,7 +80,7 @@ export default function Timeline() {
                                 </div>
                                 {/*<FontAwesomeIcon className="h-12" icon={faReact} />*/}
                             </div>
-                            <p>Our team ranks 4th in the CSI developer <a className=" line-through hover:no-underline " href="">Read the news! &rarr;</a></p>
+                            <p>Our team ranks 4th in the CSI developer <a className="hover:line-through " href="">Read the news! &rarr;</a></p>
                         </div>
                     </div>
                 </div>
