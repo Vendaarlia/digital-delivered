@@ -1,4 +1,4 @@
-import React from "react"
+
 
 export default function Contact() {
     return (
@@ -13,12 +13,13 @@ export default function Contact() {
                 <div className="colmn h-full flex flex-col justify-between w-3/4">
                     <h1 className="w-full text-6xl text-right text-[#e14c6c]">*</h1>
                     <h5 className="text-xl  font-bold">
-                        Tamriel<br />
-                        Skyrim, whiterun.<br />
+
+                        Whiterun,<br />
+                        Skyrim, Tamriel.<br />
                         <br />
                         0838327382873<br />
                         digital@delivered.com <br />
-                        <a className="text-[#e14c6c]" href="http://">GitHub &rarr;</a></h5>
+                        <a className="text-[#e14c6c] hover:line-through" href="http://">GitHub &rarr;</a></h5>
                     <div className="contact w-full mt-8">
                         <form id="survey-form" action="">
                             <div className="input-wrap flex justify-end gap-2 mb-10">
