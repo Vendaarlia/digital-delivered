@@ -44,7 +44,7 @@ export const Navbar = () => {
       custom={height}
       ref={containerRef}
     >
-      <motion.div className="background absolute top-0 right-[15px] bottom-0 w-screen bg-white z-[970]" variants={sidebar} />
+      <motion.div className="background absolute top-0 right-[15px] bottom-0 w-screen bg-black z-[970]" variants={sidebar} />
       <Brand />
       <Navigation />
       <MenuToggle toggle={() => toggleOpen()} />

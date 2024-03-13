@@ -1,4 +1,6 @@
 import Image from "next/image"
+import { motion } from "framer-motion"
+
 
 export default function Social() {
     return (
@@ -10,9 +12,9 @@ export default function Social() {
                         <a className="hover:text-[#e14c6c] hover:underline" href="http://">GitHub</a>
                         <a className="hover:text-[#e14c6c] hover:underline" href="http://">Instagram</a>
                     </div>
-                    <div className="emblem">
+                    <motion.div animate={{ rotate: 360 }} transition={{ ease: "linear", duration: 9, repeat: Infinity }}  className="emblem">
                         <Image className="rounded-full" src="/images/badge.png" alt="" width={100} height={100} />
-                    </div>
+                    </motion.div>
                     <div className="right flex justify-center items-center w-1/2 gap-9">
                         <a className="hover:text-[#e14c6c] hover:underline" href="http://">Medium</a>
                         <a className="hover:text-[#e14c6c] hover:underline" href="http://">Twitter</a>
