@@ -13,7 +13,7 @@ const variants = {
 };
 
 export const Navigation = () => (
-  <motion.ul className=" flex flex-col items-center justify-center text-2xl m-0 p-[25px] z-[980] absolute top-[100px] w-full" variants={variants}>
+  <motion.ul className="flex flex-col items-center justify-center text-2xl m-0 p-[25px] z-[980] absolute top-[100px] w-[230px]" variants={variants}>
     {itemIds.map(i => (
       <MenuItem i={i} key={i} />
     ))}
