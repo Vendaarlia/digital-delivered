@@ -16,7 +16,7 @@ export default function Team() {
     return (
         <>
         <section className="w-screen">
-        <motion.div className="wrap-img pt-20 mt-24 flex justify-center gap-4"
+        <motion.div className="wrap-img pt-20 mt-24 max-sm:flex-col flex justify-center items-center gap-4"
             initial="initial"
             animate="initial"
             whileHover="animate"

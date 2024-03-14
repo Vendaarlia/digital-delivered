@@ -6,14 +6,14 @@ const variants = {
     y: 0,
     opacity: 1,
     transition: {
-      y: { stiffness: 1000, velocity: -200 },
+      y: { stiffness: 100, velocity: -100 },
     },
   },
   closed: {
-    y: 1000,
+    y: 100,
     opacity: 0,
     transition: {
-      y: { stiffness: 1000 },
+      y: { stiffness: 100 },
     },
   },
 };
@@ -42,13 +42,13 @@ export const MenuItem: React.FC<MenuItemProps> = ({ i }) => {
                   alignItems: 'center',
                 };
   return (
-    <motion.li className="m-0 p-0 z-[980] list-none mb-[20px] cursor-pointer"
+    <motion.li className="m-0 p-0 z-[980] ml-20 list-none mb-[20px] cursor-pointer"
       variants={variants}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
       transition={{ delay: 1 }}
     >
-      <div className="text-placeholder w-[500px] h-[60px] rounded-[5px] flex-grow text-white hover:text-black hover:bg-[#e14c6c]" style={style} >{liText[i]}</div>
+      <div className="text-placeholder w-[200px] h-[60px] rounded-[5px] flex-grow text-white hover:text-black hover:bg-[#e14c6c]" style={style} >{liText[i]}</div>
     </motion.li>
   );
 };
